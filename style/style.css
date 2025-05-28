@@ -1,0 +1,202 @@
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#E6E6FA, #B8E7FA);
+  margin: 0px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #E6EDF9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 24px, auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+span {
+  color: #FFA500;
+}
+
+.headerBtn {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding: 0px 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #FFA500, #FFD447);
+  border: 1px solid #FFA50010;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.headerBtn-1 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding: 8px 35px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #FFA500, #FFD447);
+  border: 1px solid #FFA50010;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+#banner {
+  background-color: #E6EDF9;
+  margin: 55px 50px;
+  text-align: center;
+  border-radius: 16px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 430px;
+  gap: 32px;
+}
+
+#banner p {
+  font-size: 11px;
+}
+
+#banner-2 h2 {
+  text-align: center;
+}
+
+#banner-2 p {
+  font-size: 11px;
+  text-align: center;
+  gap: 25px;
+}
+
+#banner-m {
+  background-color: #E6EDF9;
+  margin: 55px 50px;
+  border-radius: 16px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  padding: 48px 48px;
+  padding-right: 60px;
+  align-items: center;
+  gap: 50px;
+
+
+}
+
+#banner-m .banner-content #text {
+  font-weight: 600;
+}
+
+#banner-m .banner-content #text-2 {
+  font-size: 11px;
+}
+
+.button-box button {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding: 8px 35px;
+  border-radius: 16px;
+  background-image: linear-gradient(to bottom right, #FFA500, #FFD447);
+  border: 1px solid #FFA50010;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  gap: 32px;
+}
+
+
+#service {
+  margin: 55px 50px;
+}
+
+
+.heading-content {
+  text-align: center;
+}
+
+.heading-content p {
+  font-size: 11px;
+  margin-bottom: 50px;
+}
+
+
+#service-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+
+.service-card {
+  background-image: linear-gradient(#E6E6FA, #B8E7FA);
+  padding: 30px 90px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 170px;
+}
+
+
+footer {
+  background-color: #E6EDF9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 24px, auto;
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-top: 150px;
+  align-items: center;
+  gap: 50px;
+
+}
+
+
+.inspiration-section {
+  margin: 55px 50px;
+}
+
+.inspiration-section h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.inspiration-section p {
+  max-width: 852px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 11px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+
+.inspiration-img {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 32px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 16px;
+  margin-top: 50px;
+}
+
+.inspiration-img img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+
+footer h5 {
+  font-weight: 420;
+  word-spacing: 0.10cm;
+}
+
+
+footer img {
+  gap: 20px;
+}
